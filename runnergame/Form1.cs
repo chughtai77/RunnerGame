@@ -88,10 +88,15 @@ namespace runnergame
             }
         }
 
+<<<<<<< HEAD
 
         // when we need to reset the game we call this function to play again  
         private void GamePlayAgain() {
 
+=======
+        private void GamePlayAgain() {
+
+>>>>>>> 677d535a65b698226efbe1dafc2e4e5f57ac288b
             force = 12;
             jumpspeed = 0; 
             jump= false;
@@ -104,21 +109,34 @@ namespace runnergame
 
 
 
+<<<<<<< HEAD
               //Setting the position of cars (Obstacles) out
               //    of the frame so when game start it will move farwad to the charachter
 
             //At this stage this is not accurate we will check after translate from right to left these car
+=======
+        //Setting the position of cars (Obstacles) out
+        //    of the frame so when game start it will move farwad to the charachter
+>>>>>>> 677d535a65b698226efbe1dafc2e4e5f57ac288b
             foreach (Control x in this.Controls) {
 
                 if (x is PictureBox && (string)x.Tag == "obstacle") {
 
+<<<<<<< HEAD
                    currentposition = this.ClientSize.Width + rand.Next(10, 10) + (x.Width * 1);
+=======
+                    currentposition = this.ClientSize.Width + rand.Next(10, 10) + (x.Width * 1);
+>>>>>>> 677d535a65b698226efbe1dafc2e4e5f57ac288b
 
                     x.Left = currentposition; 
                 
                 }
             }
+<<<<<<< HEAD
             gameTimer.Start();
+=======
+
+>>>>>>> 677d535a65b698226efbe1dafc2e4e5f57ac288b
            
 
         }
