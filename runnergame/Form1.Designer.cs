@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.txtscore = new System.Windows.Forms.Label();
+            this.txtScore = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -51,15 +51,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.SuspendLayout();
             // 
-            // txtscore
+            // txtScore
             // 
-            this.txtscore.AutoSize = true;
-            this.txtscore.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtscore.Location = new System.Drawing.Point(768, 9);
-            this.txtscore.Name = "txtscore";
-            this.txtscore.Size = new System.Drawing.Size(118, 24);
-            this.txtscore.TabIndex = 5;
-            this.txtscore.Text = "Score: 0 ";
+            this.txtScore.AutoSize = true;
+            this.txtScore.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtScore.Location = new System.Drawing.Point(768, 9);
+            this.txtScore.Name = "txtScore";
+            this.txtScore.Size = new System.Drawing.Size(118, 24);
+            this.txtScore.TabIndex = 5;
+            this.txtScore.Text = "Score: 0 ";
             // 
             // pictureBox2
             // 
@@ -107,7 +107,7 @@
             // trex
             // 
             this.trex.Image = global::runnergame.Properties.Resources.sonic2c;
-            this.trex.Location = new System.Drawing.Point(44, 299);
+            this.trex.Location = new System.Drawing.Point(95, 304);
             this.trex.Name = "trex";
             this.trex.Size = new System.Drawing.Size(104, 104);
             this.trex.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -127,7 +127,7 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::runnergame.Properties.Resources.clouddownload;
-            this.pictureBox6.Location = new System.Drawing.Point(257, 137);
+            this.pictureBox6.Location = new System.Drawing.Point(244, 167);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(61, 35);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -137,7 +137,7 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = global::runnergame.Properties.Resources.clouddownload;
-            this.pictureBox7.Location = new System.Drawing.Point(374, 40);
+            this.pictureBox7.Location = new System.Drawing.Point(401, 40);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(125, 63);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -147,7 +147,7 @@
             // pictureBox8
             // 
             this.pictureBox8.Image = global::runnergame.Properties.Resources.clouddownload;
-            this.pictureBox8.Location = new System.Drawing.Point(572, 98);
+            this.pictureBox8.Location = new System.Drawing.Point(616, 139);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(125, 63);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -169,7 +169,7 @@
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.txtscore);
+            this.Controls.Add(this.txtScore);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
@@ -197,7 +197,7 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.Label txtscore;
+        private System.Windows.Forms.Label txtScore;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox6;
